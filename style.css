@@ -1,0 +1,205 @@
+/* Corpo do site */
+body {
+    background-color: #f4f4f9;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #262866;
+    color: #fff;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 18px 0;
+    z-index: 1000;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+header .logo {
+    max-width: 300px;
+}
+
+header nav ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+header nav ul li a:hover {
+    color: #c484f1;
+}
+
+header .cta-button {
+    background-color: #c484f1;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header .cta-button:hover {
+    background-color: #8906e6;
+}
+
+/* Seções */
+section {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+/* Seção Sobre */
+#about {
+    background-color: #fff;
+    color: #333;
+}
+
+#about h2 {
+    font-size: 2.5rem;
+    color: #100d28;
+}
+
+#about p {
+    font-size: 1.1rem;
+    color: #666;
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+/* Seção de Serviços */
+#services {
+    background-color: #f4f4f9;
+}
+
+#services h2 {
+    font-size: 2.5rem;
+    color: #100d28;
+}
+
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.service-item {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.service-item:hover {
+    transform: translateY(-10px);
+}
+
+.service-item i {
+    font-size: 3rem;
+    color: #050deb;
+}
+
+.service-item h3 {
+    margin-top: 10px;
+    font-size: 1.5rem;
+    color: #100d28;
+}
+
+.service-item p {
+    margin-top: 10px;
+    color: #666;
+}
+
+/* Chamada para Ação */
+#cta {
+    background-color: #fff;
+    /* Fundo branco como na seção de serviços */
+    color: #333;
+    /* Cor do texto mais suave */
+    text-align: center;
+    padding: 60px 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* Sombra suave para destacar */
+}
+
+#cta h2 {
+    font-size: 2.5rem;
+    color: #100d28;
+}
+
+#cta .cta-button {
+    background-color: #fff;
+    /* Fundo branco para o botão */
+    color: #100d28;
+    /* Cor do texto para o botão */
+    border: 2px solid #100d28;
+    /* Adicionando borda para destacar o botão */
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    /* Bordas arredondadas */
+    transition: background-color 0.3s, color 0.3s;
+}
+
+#cta .cta-button:hover {
+    background-color: #100d28;
+    /* Fundo escuro no hover */
+    color: #fff;
+    /* Texto branco no hover */
+}
+
+
+/* Seção de Contato */
+#contact {
+    background-color: #fff;
+}
+
+#contact h2 {
+    font-size: 2.5rem;
+    color: #100d28;
+}
+
+#contact p {
+    font-size: 1.1rem;
+    color: #666;
+}
+
+#contact .whatsapp-icon {
+    font-size: 1.5rem;
+    /* Aumenta o tamanho do ícone */
+    color: #25D366;
+    /* Cor verde do WhatsApp */
+}
+
+
+/* Rodapé */
+footer {
+    background-color: #262866;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
